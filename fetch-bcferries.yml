@@ -1,0 +1,55 @@
+name: Fetch BC Ferries AIS Positions
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub cron uses UTC.
+    # Note: GitHub may delay scheduled runs by up to ~10 min under load.
+    - cron: '*/15 * * * *'
+
+  # Manual trigger — use this to test, and to keep the workflow
+  # alive (GitHub disables cron on repos with no activity after ~60 days)
+  workflow_dispatch:
+
+jobs:
+  fetch-ais:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12   # fetch takes ~8 min; kill if something hangs
+
+    permissions:
+      contents: write     # needed to commit positions.json back to repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run fetch_ais.py
+        run: python fetch_ais.py
+        env:
+          AIS_API_KEY: ${{ secrets.AIS_API_KEY }}
+        # Don't fail the whole workflow if aisstream is down —
+        # we still want to commit (updated_at gets refreshed even with 0 vessels)
+        continue-on-error: true
+
+      - name: Commit updated positions.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add bcferries/positions.json
+          # Only commit if the file actually changed
+          if git diff --staged --quiet; then
+            echo "No changes to positions.json — skipping commit"
+          else
+            git commit -m "data: bcferries positions $(date -u +'%Y-%m-%d %H:%M UTC') [skip ci]"
+            git push
+          fi

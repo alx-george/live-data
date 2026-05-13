@@ -102,7 +102,6 @@ async def fetch():
     try:
         async with websockets.connect(
             AIS_WS_URL,
-            additional_headers={"User-Agent": "bcferries-live-tracker/1.0"},
             ping_interval=20,
             ping_timeout=30,
             close_timeout=10,

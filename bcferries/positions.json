@@ -1,17 +1,5 @@
 {
-  "updated_at": "2026-05-19T19:31:05.818076+00:00",
-  "vessel_count": 1,
-  "vessels": [
-    {
-      "mmsi": 316001657,
-      "name": "Lofoten Ii",
-      "lat": 49.12324,
-      "lon": -123.18718,
-      "sog": 0,
-      "cog": 41.8,
-      "heading": null,
-      "nav_status": "Not defined",
-      "timestamp": "2026-05-19T19:31:02.548504+00:00"
-    }
-  ]
+  "updated_at": "2026-05-19T21:04:20.903809+00:00",
+  "vessel_count": 0,
+  "vessels": []
 }

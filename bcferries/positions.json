@@ -1,17 +1,5 @@
 {
-  "updated_at": "2026-05-29T14:39:22.136895+00:00",
-  "vessel_count": 1,
-  "vessels": [
-    {
-      "mmsi": 316001649,
-      "name": null,
-      "lat": 53.45127,
-      "lon": -130.76815,
-      "sog": 8.4,
-      "cog": 151,
-      "heading": 152,
-      "nav_status": "Under way using engine",
-      "timestamp": "2026-05-29T14:38:15.564202+00:00"
-    }
-  ]
+  "updated_at": "2026-05-29T18:02:53.993986+00:00",
+  "vessel_count": 0,
+  "vessels": []
 }

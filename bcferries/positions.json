@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-06-02T06:28:11.666014+00:00",
+  "updated_at": "2026-06-02T11:07:39.946513+00:00",
   "vessel_count": 2,
   "vessels": [
     {
       "mmsi": 316001649,
       "name": "La Porsche",
-      "lat": 49.17694,
-      "lon": -122.9163,
+      "lat": 49.17696,
+      "lon": -122.91635,
       "sog": 0,
-      "cog": 217,
-      "heading": 14,
+      "cog": 261,
+      "heading": 15,
       "nav_status": "Under way using engine",
-      "timestamp": "2026-06-02T06:26:00.830128+00:00"
+      "timestamp": "2026-06-02T11:07:21.255183+00:00"
     },
     {
       "mmsi": 316001657,
       "name": "Lofoten Ii",
       "lat": 49.12326,
-      "lon": -123.18718,
+      "lon": -123.1872,
       "sog": 0,
-      "cog": 257.2,
+      "cog": 2.8,
       "heading": null,
       "nav_status": "Not defined",
-      "timestamp": "2026-06-02T06:25:15.343745+00:00"
+      "timestamp": "2026-06-02T11:07:15.830325+00:00"
     }
   ]
 }

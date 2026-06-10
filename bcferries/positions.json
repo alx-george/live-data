@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-09T23:02:33.677737+00:00",
+  "updated_at": "2026-06-10T00:10:45.753627+00:00",
   "vessel_count": 1,
   "vessels": [
     {
@@ -8,10 +8,10 @@
       "lat": 49.17694,
       "lon": -122.91633,
       "sog": 0,
-      "cog": 166,
-      "heading": 16,
+      "cog": 294,
+      "heading": 14,
       "nav_status": "Under way using engine",
-      "timestamp": "2026-06-09T23:01:27.497284+00:00"
+      "timestamp": "2026-06-10T00:09:39.194042+00:00"
     }
   ]
 }

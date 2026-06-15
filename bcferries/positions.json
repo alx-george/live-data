@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-06-15T00:05:17.022972+00:00",
+  "updated_at": "2026-06-15T03:04:01.211034+00:00",
   "vessel_count": 2,
   "vessels": [
     {
       "mmsi": 316001649,
       "name": "La Porsche",
-      "lat": 49.17694,
-      "lon": -122.91632,
+      "lat": 49.17696,
+      "lon": -122.91631,
       "sog": 0,
       "cog": 32,
-      "heading": 14,
+      "heading": 15,
       "nav_status": "Under way using engine",
-      "timestamp": "2026-06-15T00:05:06.448033+00:00"
+      "timestamp": "2026-06-15T03:03:02.982949+00:00"
     },
     {
       "mmsi": 316017849,
       "name": "Sir Fish--A--Lot",
-      "lat": 49.37863,
-      "lon": -123.32988,
-      "sog": 1.5,
-      "cog": 54,
+      "lat": 49.2108,
+      "lon": -123.29362,
+      "sog": 26.4,
+      "cog": 184.8,
       "heading": null,
       "nav_status": "Not defined",
-      "timestamp": "2026-06-15T00:03:00.407997+00:00"
+      "timestamp": "2026-06-15T03:03:00.405935+00:00"
     }
   ]
 }

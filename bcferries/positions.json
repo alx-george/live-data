@@ -1,17 +1,17 @@
 {
-  "updated_at": "2026-06-20T16:53:57.210191+00:00",
+  "updated_at": "2026-06-20T18:10:55.841560+00:00",
   "vessel_count": 1,
   "vessels": [
     {
       "mmsi": 316001649,
       "name": "La Porsche",
-      "lat": 49.17698,
-      "lon": -122.91635,
+      "lat": 49.17694,
+      "lon": -122.91633,
       "sog": 0,
-      "cog": 332,
-      "heading": 13,
+      "cog": 343,
+      "heading": 14,
       "nav_status": "Under way using engine",
-      "timestamp": "2026-06-20T16:53:55.460036+00:00"
+      "timestamp": "2026-06-20T18:09:49.438747+00:00"
     }
   ]
 }

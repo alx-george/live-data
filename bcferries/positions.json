@@ -1,5 +1,17 @@
 {
-  "updated_at": "2026-07-30T20:30:57.796096+00:00",
-  "vessel_count": 0,
-  "vessels": []
+  "updated_at": "2026-07-30T21:45:08.550718+00:00",
+  "vessel_count": 1,
+  "vessels": [
+    {
+      "mmsi": 316017849,
+      "name": "Sir Fish--A--Lot",
+      "lat": 49.10958,
+      "lon": -123.13965,
+      "sog": 29.7,
+      "cog": 279.3,
+      "heading": null,
+      "nav_status": "Not defined",
+      "timestamp": "2026-07-30T21:41:51.742796+00:00"
+    }
+  ]
 }

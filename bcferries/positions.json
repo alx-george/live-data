@@ -1,28 +1,17 @@
 {
-  "updated_at": "2026-10-05T00:08:53.623649+00:00",
-  "vessel_count": 2,
+  "updated_at": "2026-10-05T05:37:35.883232+00:00",
+  "vessel_count": 1,
   "vessels": [
     {
       "mmsi": 316001649,
       "name": null,
-      "lat": 49.12443,
+      "lat": 49.12444,
       "lon": -123.19205,
       "sog": 0,
-      "cog": 329,
+      "cog": 6,
       "heading": 273,
       "nav_status": "Under way using engine",
-      "timestamp": "2026-10-05T00:07:58.056575+00:00"
-    },
-    {
-      "mmsi": 316017849,
-      "name": "Sir Fish--A--Lot",
-      "lat": 49.11168,
-      "lon": -123.31409,
-      "sog": 2.8,
-      "cog": 184.2,
-      "heading": null,
-      "nav_status": "Not defined",
-      "timestamp": "2026-10-05T00:05:35.851442+00:00"
+      "timestamp": "2026-10-05T05:36:41.101672+00:00"
     }
   ]
 }

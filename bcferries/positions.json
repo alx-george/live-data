@@ -1,17 +1,5 @@
 {
-  "updated_at": "2026-11-03T02:37:02.157019+00:00",
-  "vessel_count": 1,
-  "vessels": [
-    {
-      "mmsi": 316001659,
-      "name": "Zapora",
-      "lat": 49.27213,
-      "lon": -123.13858,
-      "sog": 0,
-      "cog": 0.6,
-      "heading": null,
-      "nav_status": "Not defined",
-      "timestamp": "2026-11-03T02:30:19.537620+00:00"
-    }
-  ]
+  "updated_at": "2026-11-03T09:57:35.540329+00:00",
+  "vessel_count": 0,
+  "vessels": []
 }

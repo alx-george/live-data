@@ -1,17 +1,28 @@
 {
-  "updated_at": "2026-11-05T17:54:25.085339+00:00",
-  "vessel_count": 1,
+  "updated_at": "2026-11-05T23:04:27.234803+00:00",
+  "vessel_count": 2,
   "vessels": [
+    {
+      "mmsi": 316001657,
+      "name": null,
+      "lat": 48.94704,
+      "lon": -125.55055,
+      "sog": 0,
+      "cog": 266.5,
+      "heading": null,
+      "nav_status": "Not defined",
+      "timestamp": "2026-11-05T22:59:51.669823+00:00"
+    },
     {
       "mmsi": 316001659,
       "name": null,
       "lat": 49.27214,
-      "lon": -123.13857,
+      "lon": -123.1386,
       "sog": 0,
       "cog": 4.9,
       "heading": null,
       "nav_status": "Not defined",
-      "timestamp": "2026-11-05T17:48:19.201097+00:00"
+      "timestamp": "2026-11-05T23:00:20.949151+00:00"
     }
   ]
 }
